@@ -12,14 +12,27 @@ body {
 h1 {
   color: white;
   font-family: 'Roboto', sans-serif;
-  font-size: 50px;
+  font-size: 75px;
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 h2 {
   padding-top: 100px;
   color: white;
+  width: 306px;
+  margin-left: 25px;
+  /* overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  /* -webkit-box-orient: vertical;  */
+  font-weight: bold; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  font-size: 30px;
 }
 
 h3 {
+  margin-top: 95px;
   margin-right: 200px;
   font-size: 30px; 
   font-weight: 700;
@@ -53,9 +66,26 @@ form {
   flex-direction: column;
 }
 
+.terms {
+  font-size: 10px;
+  color: #656565;
+  margin: 1px;
+  width: 310px;
+}
+
+.terms a {
+  color: #385898;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
 .login-text {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+    margin-bottom: 5px 
 }
 
 .login-text a {
@@ -75,7 +105,7 @@ label {
   margin-bottom: 8px;
 }
 
-input[type="text"],
+/* input[type="text"],
 input[type="email"],
 input[type="password"],
 button {
@@ -85,6 +115,26 @@ button {
   border-radius: 4px;
   background-color: #c7c7c7;
   width: 300px;
+} */
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f2f5; /* Background color similar to the image */
+  font-size: 16px;
+  color: #1d2129; /* Text color similar to the image */
+  width: 300px; /* Adjust width as needed */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #1877f2; /* Border color on focus similar to the image */
 }
 
 
@@ -104,7 +154,8 @@ button:hover {
 button {
   width: 152px;
     margin-left: 95px;
-    margin-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   background-color: #4267B2; /* Facebook blue */
   color: white;
   border: none;
