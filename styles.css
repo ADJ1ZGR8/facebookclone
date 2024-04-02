@@ -89,12 +89,12 @@ form {
 }
 
 .login-text a {
-  color: #385898; 
+  color: #385898; /* Blue color */
   text-decoration: none;
 }
 
 .login-text a:hover {
-  text-decoration: underline; 
+  text-decoration: underline; /* Add underline on hover */
 }
 Explanati
 
@@ -124,17 +124,17 @@ input[type="password"] {
   margin-bottom: 20px;
   border: none;
   border-radius: 8px;
-  background-color: #f0f2f5; 
+  background-color: #f0f2f5; /* Background color similar to the image */
   font-size: 16px;
-  color: #1d2129;
-  width: 300px; 
+  color: #1d2129; /* Text color similar to the image */
+  width: 300px; /* Adjust width as needed */
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="password"]:focus {
   outline: none;
-  box-shadow: 0 0 0 2px #1877f2;
+  box-shadow: 0 0 0 2px #1877f2; /* Border color on focus similar to the image */
 }
 
 
@@ -156,14 +156,14 @@ button {
     margin-left: 95px;
     margin-top: 50px;
     margin-bottom: 50px;
-  background-color: #4267B2; 
+  background-color: #4267B2; /* Facebook blue */
   color: white;
   border: none;
-  padding: 10px 20px; 
+  padding: 10px 20px; /* Adjust padding */
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px; 
+  font-size: 14px; /* Adjust font size */
   /* margin: 4px 2px; */
   cursor: pointer;
   border-radius: 6px;
@@ -172,6 +172,18 @@ button {
 }
 
 button:hover {
-  background-color: #385898; 
+  background-color: #385898; /* Darker blue color on hover */
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2), 0 12px 40px rgba(0, 0, 0, 0.29);
+}
+
+.display{
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f0f2f5; 
+  font-size: 16px;
+  width: 300px;
+  color: #999; 
+  font-style: italic;   
 }
